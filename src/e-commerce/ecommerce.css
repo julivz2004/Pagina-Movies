@@ -1,0 +1,88 @@
+.ecommerce-item{
+    width: 100%;
+}
+
+.ecommerce-item h3{
+    font-size: 20px;
+}
+
+.sub-ref{
+    margin-top: 13px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    
+}
+
+.sub-ref p{
+    font-size: 0.80em;
+}
+
+.sub-ref h4{
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.sub-ref img{
+    right: 0;
+    position: absolute;
+    width: 90px;
+}
+
+.price{
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.tallas span{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-right:30px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+
+.tallas{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cantidad{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.cantidad-item{
+
+    border-bottom: 0.01pc  solid;
+    display: flex;
+    font-size: 30px;
+    width: 80%;
+    justify-content: center;   
+}
+
+.cantidad input{
+    border: 0;
+    padding-left: 10px;
+    text-align: center;
+    width: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+}
+
+.add-bag input{
+    font-weight: bolder;
+    width: 130%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}

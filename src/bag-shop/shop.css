@@ -1,0 +1,44 @@
+.down-bag{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #E7E8E9;
+}
+
+.sub{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.cost{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.total{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.down-bag button{
+    height: 20px;
+    width: 50%;
+    background-color: #EA0029;
+    border: 0;
+    color: white;
+}
+
+.down-bag{
+    display: flex;
+    flex-direction: column;
+}
+
+.close-buy{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.shop{
+    z-index: 2000;
+}

@@ -1,0 +1,225 @@
+
+.product{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 16.8%;
+    background-color: rgb(255, 255, 255);
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 30;
+}
+
+.imagenes{
+
+   height: 100%;
+}
+
+.right{
+    right: 0;
+    position: absolute;
+    font-size: 35px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.left {
+    left: 0;
+    position: absolute;
+    font-size: 35px;
+    text-align: start;
+    cursor: pointer
+}
+.imagenes img{
+    align-items: center;
+    transition: all 1s ease-in;
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.image-list{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.btn0{
+    font-size: 30px;
+    position: absolute;
+    top: 20px; 
+}
+
+.btn1{
+    font-size: 30px;
+    position: absolute;
+    bottom: 55px;
+    
+}
+
+.galery{
+    cursor: pointer;
+}
+
+.galery img{
+    cursor: pointer;
+    position: relative;  
+    width: 100%;
+}
+
+.galery-slider{
+    position: relative;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+}
+
+
+
+.galery{
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.description-galery p{
+        font-size: 11px;
+}
+
+
+
+.eccomerce{
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 70%;
+}
+
+.bag-shop{
+    
+    display: none;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    z-index: 2000;
+    background-color: white;
+    position: fixed;
+    right: 0;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    margin: 15px 15px 15px 15px;
+}
+
+.icon{
+    margin-right: 5px;
+    position: absolute;
+    right: 3%;
+}
+
+.img-bag{
+    width: 50%;
+}
+
+.img-bag img{
+    width: 100%;
+}
+
+.product-bag{
+    display: flex;
+}
+
+.icon-cross{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+
+}
+
+.title-bag{
+    display: flex;
+}
+
+.foot{
+    grid-column: 1/4;
+    margin-top: 60px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 75%;
+}
+
+@media only screen and (max-width:640px) and (max-width:1200px){
+    .product{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        z-index: 0;
+    }
+    .galery{
+        display: none;
+    }
+    .foot{
+        grid-column: 1/3;
+        width: 100%;
+    }
+
+    .description-galery p{
+        font-size: 10px;
+    }
+
+    .description-galery{
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galery-slider{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bag-shop{
+        margin-top: 80px;
+        z-index: 2000;
+        height: 87%;
+        width: 100%;
+        right: 0;
+    }
+
+    .slider{
+        z-index: 0;
+    }
+
+    .description-galery .buttons{
+        display: none;
+    }
+    
+}
+
+

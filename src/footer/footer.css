@@ -1,0 +1,81 @@
+.form{
+    position: relative;
+    display: flex;
+}
+
+.form input{
+    border: none;
+    background-color: #131E29;
+    border-bottom: 2px solid white;
+    width: 100%;
+    
+
+}
+.form label{
+    left: 0;
+    position: absolute;
+}
+
+.form div{
+    position: relative;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.membership{
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    text-align: center; 
+    justify-content: center;
+    grid-template-columns: 80%;
+    background-color: #131E29;
+    color: white;
+}
+
+.member p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+form label{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 50%;
+    width: 100%;
+}
+
+.bank{
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1.5px solid;
+    display: flex;
+}
+
+.bank img{
+    width: 50%;
+    height: 50%;
+}
+
+@media only screen and (max-width:640px) and (max-width:1200px){
+    .footer{
+        width: 100%;
+    }
+
+    .contact{
+        display: none;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+
+    }
+}
+
