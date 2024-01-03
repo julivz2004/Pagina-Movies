@@ -1,46 +1,4 @@
-/*import "./ecommerce.css"
-import { useState } from "react";
 
-function Ecommerce(){
-    const [inputValue, setInputValue] = useState(1);
-
-  const incrementar = () => {
-    setInputValue(prevValue => prevValue + 1);
-  };
-
-  const decrementar = () => {
-    if (inputValue > 0) {
-      setInputValue(prevValue => prevValue - 1);
-    }
-  };
-    return(
-        <div className="desc">
-            <h2>CHAQUETA DE LA NASA MULTICOLOR CON CIERRE PARA HOMBRE</h2>
-            <p>NASA Ref. 237474-110601-S</p>
-            <p>$249.990</p>
-            <br/>
-            <p>¡Solo 6 unidades disponibles!</p>
-            <div>
-                <button>S</button>
-                <button>M</button>
-                <button>L</button>
-                <button>XL</button>
-            </div>
-            <div>
-             <div>
-               <span onClick={decrementar}>-</span>
-               <input type="number" value={inputValue} readOnly />
-               <span onClick={incrementar}>+</span>
-             </div>
-             <div>
-              <input type="button" value={"Agregar a mi bolsa"}/>
-             </div>
-            </div>
-        </div>
-    );
-}
-
-export default Ecommerce*/
 
 
 
